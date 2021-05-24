@@ -1,0 +1,13 @@
+<!-- You can write ruby code inside <% %> -->
+<!-- You can write ruby code and inject the output in the HTML with <%= %> -->
+ <div class = "question">
+<p>You : "<%= params[:question]%>"</p>
+ </div>
+
+ <div class = "response">
+<p>The coach : "<%= @coach_answer%>"</p>
+ </div>
+
+<div class = "new">
+<%= link_to "Ask a new question", ask_path %>
+</div>

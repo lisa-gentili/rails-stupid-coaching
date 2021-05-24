@@ -1,0 +1,47 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+h1 {
+color: purple;
+font-size: 50px;
+font-family:Georgia;
+}
+
+ body {
+   background: black; // Using this variable
+   text-align:center;
+  color:white;
+ }
+
+  a {
+   color: grey;
+   font-size:20px;
+   &:hover {
+     color: pink;
+   }
+ }
+
+ .question, .response {
+  color:white;
+  font-size: 30px;
+ }
+
+.barre {
+  border-radius: 10px;
+  width: 350px;
+  height: 20px;
+  margin:20px;
+}
+
+.btn {
+  background: pink;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  color:white;
+ font-style:bold;
+}
